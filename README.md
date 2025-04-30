@@ -42,7 +42,7 @@ car-price-prediction/
 ## 🛠️ Setup
 
 ```bash
-git clone https://github.com/<your-username>/car-price-prediction.git
+git clone https://github.com/<rickypenajr>/car-price-prediction.git
 cd car-price-prediction
 
 python3 -m venv venv

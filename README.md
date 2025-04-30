@@ -51,7 +51,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
+
 
 ## 🚀 Usage
 
@@ -73,18 +73,29 @@ pip install -r requirements.txt
   ```
   Prints RMSE on the test split.
 
----
+
 
 ## 🤝 Contributing
 
 Feel free to open issues or PRs to:  
 - Add more features or predictors  
-- Try different models (Random Forest, XGBoost)  
-- Wrap in a Streamlit dashboard  
+- Try different models 
 - Write unit tests or improve docs  
 
----
+
 
 ## ⚖️ License
 
 This project is MIT-licensed. See [LICENSE](LICENSE) for details.
+
+
+## 🏷️ GitHub Topics
+`#python` `#data-analysis` `#data-visualization` `#machine-learning` `#regression` `#linear-regression` `#pandas` `#numpy` `#scipy` `#matplotlib` `#scikit-learn` `#jupyter-notebook` `#exploratory-data-analysis` `#car-price-prediction`
+
+
+
+## 👤 Author
+
+**Ricky Peña Jr.**  
+🌐 [rickypenajr.github.io](https://rickypenajr.github.io)  
+🔗 [GitHub](https://github.com/rickypenajr) • [LinkedIn](https://linkedin.com/in/rickypenajr)

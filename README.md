@@ -80,7 +80,9 @@ pip install -r requirements.txt
 Feel free to open issues or PRs to:  
 - Add more features or predictors  
 - Try different models 
-- Write unit tests or improve docs  
+- Write unit tests or improve docs
+<br>
+<br>
 
 
 
@@ -91,7 +93,7 @@ This project is MIT-licensed. See [LICENSE](LICENSE) for details.
 
 ## 🏷️ GitHub Topics
 `#python` `#data-analysis` `#data-visualization` `#machine-learning` `#regression` `#linear-regression` `#pandas` `#numpy` `#scipy` `#matplotlib` `#scikit-learn` `#jupyter-notebook` `#exploratory-data-analysis` `#car-price-prediction`
-
+<br>
 
 
 ## 👤 Author

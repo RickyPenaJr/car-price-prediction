@@ -2,7 +2,7 @@
 
 A simple end-to-end project demonstrating data loading, cleaning, exploratory analysis, statistical testing, and modeling for used car price prediction.
 
----
+
 
 ## 📥 Dataset
 
@@ -14,7 +14,7 @@ A simple end-to-end project demonstrating data loading, cleaning, exploratory an
    └─ data/used_cars.csv
    ```
 
----
+
 
 ## 📂 Project Structure
 
@@ -37,7 +37,7 @@ car-price-prediction/
 └─ requirements.txt               # pip install -r requirements.txt
 ```
 
----
+
 
 ## 🛠️ Setup
 
@@ -81,7 +81,6 @@ Feel free to open issues or PRs to:
 - Add more features or predictors  
 - Try different models 
 - Write unit tests or improve docs
-<br>
 
 
 ## ⚖️ License
@@ -91,7 +90,6 @@ This project is MIT-licensed. See [LICENSE](LICENSE) for details.
 
 ## 🏷️ GitHub Topics
 `#python` `#data-analysis` `#data-visualization` `#machine-learning` `#regression` `#linear-regression` `#pandas` `#numpy` `#scipy` `#matplotlib` `#scikit-learn` `#jupyter-notebook` `#exploratory-data-analysis` `#car-price-prediction`
-<br>
 
 
 ## 👤 Author

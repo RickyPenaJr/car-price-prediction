@@ -1,5 +1,5 @@
 # Car Price Prediction 🚗💰
-<img src="https://github.com/user-attachments/assets/45f30020-1c91-4305-8de6-63b7bb351673" alt="Project Logo" width="500"/>
+<img src="https://github.com/user-attachments/assets/eac6fd4b-b64c-4dce-9f0c-cbe507d3b323" alt="Project Logo" width="500"/>
 <br>
 A simple end-to-end project demonstrating data loading, cleaning, exploratory analysis, statistical testing, and modeling for used car price prediction.
 

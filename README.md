@@ -1,42 +1,90 @@
-# Car Price Prediction
+# Car Price Prediction 🚗💰
 
 A simple end-to-end project demonstrating data loading, cleaning, exploratory analysis, statistical testing, and modeling for used car price prediction.
 
-## Project Structure
+---
+
+## 📥 Dataset
+
+1. Download the **Used Car Price Prediction** CSV from Kaggle:  
+   https://www.kaggle.com/datasets/taeefnajib/used-car-price-prediction-dataset  
+2. Rename it to `used_cars.csv` and place it in:  
+   ```
+   car-price-prediction/
+   └─ data/used_cars.csv
+   ```
+
+---
+
+## 📂 Project Structure
+
 ```
 car-price-prediction/
 │
 ├─ data/
-│   └─ car_data.csv         # Downloaded from Kaggle
+│   └─ used_cars.csv               # Your Kaggle download
 │
 ├─ notebooks/
-│   └─ car_price_exploration.ipynb  # EDA notebook
+│   └─ car_price_exploration.ipynb # EDA & visualizations
 │
 ├─ src/
-│   ├─ data_processing.py   # Data loading & stats
-│   └─ model.py             # Training & evaluation
+│   ├─ data_processing.py          # Load + stats functions
+│   └─ model.py                    # Train & evaluate
 │
-├─ LICENSE
-├─ .gitignore
-├─ README.md
-└─ requirements.txt
+├─ LICENSE                        # MIT License
+├─ .gitignore                     # Ignore venv, caches, CSV
+├─ README.md                      # You’re looking at it!
+└─ requirements.txt               # pip install -r requirements.txt
 ```
 
-## Setup
+---
+
+## 🛠️ Setup
+
 ```bash
-git clone https://github.com/yourusername/car-price-prediction.git
+git clone https://github.com/<your-username>/car-price-prediction.git
 cd car-price-prediction
-python3 -m venv venv && source venv/bin/activate
+
+python3 -m venv venv
+source venv/bin/activate
+
 pip install -r requirements.txt
 ```
 
-## Usage
-- **Notebook:** Open `notebooks/car_price_exploration.ipynb` to run EDA and visualizations.
-- **Scripts:**  
+---
+
+## 🚀 Usage
+
+- **Notebook:**  
+  Open and run  
+  ```
+  notebooks/car_price_exploration.ipynb
+  ```  
+  to explore the data, view histograms, scatter plots, etc.
+
+- **Quick Stats & Correlation:**  
   ```bash
   python -c "from src.data_processing import load_data, mileage_price_correlation; df = load_data(); mileage_price_correlation(df)"
-  python -c "from src.model import train_and_evaluate; train_and_evaluate()"
   ```
 
-## License
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+- **Train & Evaluate Model:**  
+  ```bash
+  python -c "from src.model import train_and_evaluate; train_and_evaluate()"
+  ```
+  Prints RMSE on the test split.
+
+---
+
+## 🤝 Contributing
+
+Feel free to open issues or PRs to:  
+- Add more features or predictors  
+- Try different models (Random Forest, XGBoost)  
+- Wrap in a Streamlit dashboard  
+- Write unit tests or improve docs  
+
+---
+
+## ⚖️ License
+
+This project is MIT-licensed. See [LICENSE](LICENSE) for details.

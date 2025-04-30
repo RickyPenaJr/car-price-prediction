@@ -82,8 +82,6 @@ Feel free to open issues or PRs to:
 - Try different models 
 - Write unit tests or improve docs
 <br>
-<br>
-
 
 
 ## ⚖️ License
